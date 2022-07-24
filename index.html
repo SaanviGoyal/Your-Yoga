@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/x-icon" href="youryoga.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Hi+Melody&family=WindSong:wght@400;500&display=swap" rel="stylesheet">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="index.css" />
+        <title>Your Yoga Home</title>
+    </head>
+    <body>
+          <nav class="navbar navbar-light" style="background-color: #adc4a1;">
+            <div class="container-fluid">
+                <a class="navbar-brand p-1">
+                    <img src="youryogaheader.png" alt="" width="30" height="30" class="d-inline-block align-text-top">
+                    <b>Your Yoga</b>
+                  </a>
+            </div>
+          </nav>
+        <!-- style="background-color:rgb(193, 229, 151);" -->
+
+        <div class="container-fluid thingthing">
+            <div class="row">
+                <div id="splashCont">
+                    <!-- <img
+            src="https://www.wipak.com/sites/all/themes/wipak/images/central-flume.webp"
+            class="blur"
+        /> -->
+                    <img
+                        src="http://ballyhollandcc.org/app/uploads/2015/09/Yoga-Outline.png"
+                        class="yoga"
+                    />
+                </div>
+            </div>
+                <!-- <img
+            src="http://ballyhollandcc.org/app/uploads/2015/09/Yoga-Outline.png"
+            width="400"
+            class="yoga"
+        /> -->
+            </div>
+            <div class="row col-lg-12 justify-content-center" id="promo">
+                <h1>Your Yoga</h1>
+                <h3>Simple yoga, made just for <b>you</b></h3>
+                <div class="align">
+                    <form action="doing_yoga.html">
+                        <button class="start" id="startbutton">
+                            Start Now!
+                        </button>
+                    <!-- <div id="sesstime"> -->
+                <input type="number" id="mins" name="user_time" placeholder="Session Length (min)" min="1" required>
+            <!-- </div> -->
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="vidSection">
+            <video src="calm2.mp4" muted loop autoplay></video>
+
+            <div class="overlay"></div>
+            <div class="d-flex align-content-center flex-wrap justify-content-center maincont topContent videoText">
+                <div class="col-xl-6 about mx-auto rounded" id="intro">
+                    <p class=" text-center">
+                        Since 2700 B.C, yoga has been known to not only promote mental 
+                        wellbeing, but also physical wellbeing. However, there are a 
+                        large range of yoga poses, which ones you do are influenced by 
+                        how long you have done yoga and how advanced your skills are, as 
+                        a result of that, there is a myriad of possibilities. We present, 
+                        <i>Your Yoga</i>, a custom, randomized yoga workout made just for you. 
+                        The length of the sessions are fully customizable, tailored to your own 
+                        desire. So get up and get ready, because it’s time for yoga.
+                    </p>
+                </div>
+                <img
+                    src="http://www.clker.com/cliparts/3/7/7/b/11970905741863100427Gerald_G_Yoga_Poses_(stylized)_4.svg.hi.png"
+                    class="col-xl-6 img-fluid pose  align-content-center"
+                />
+            </div>
+         </div>
+
+         <div class="container">
+            <img src="travelagain.png" alt="" class="img-fluid mb-5">
+         </div>
+
+        <!-- <div class="container bg-light fixed-bottom" id="foot"> -->
+        <footer
+            class="footer navbar-default bg-dark foot pt-3 pb-3"
+            role="contentinfo"
+        >
+            <div class="container">
+                <!-- <a href="/" class="text-muted text-decoration-none">
+                    <svg class="bi" width="30" height="24">
+                        <use xlink:href="#bootstrap" />
+                    </svg>
+                </a> -->
+                <span class="text-muted">Your Yoga | Made with Love in California | Images for Yoga Poses from <a href="https://www.yogajournal.com">yogajournal.com</a></span>
+            </div>
+        </footer>
+        <!-- </div> -->
+        <!-- <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top foot">
+            <div class="col-md-4 d-flex align-items-center">
+                <span class="text-muted">Yoga Life</span>
+            </div>
+        </footer>
+    </div> -->
+    </body>
+</html>
